@@ -8,15 +8,16 @@ build_kernel : build
 
 build :
 	echo "Starting of 'build'"
+	pip install --upgrade pip --user
 	pipenv install
 
 build-notebook :
 	echo "Starting of 'build-notebook'"
-	pip install notebook  # installing globally
+	pip install notebook --user  # installing globally for the user
 
 build-lab :
 	echo "Starting of 'build-lab'"
-	pip install jupyterlab  # installing globally
+	pip install jupyterlab --user # installing globally for the user
 
 run : build-notebook build_kernel
 	echo "Starting of 'run'"
