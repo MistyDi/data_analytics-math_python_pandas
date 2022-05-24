@@ -38,9 +38,9 @@ Installs all you need and starts jupyter-lab with the [data_analytics_task.ipynb
 make run-lab
 ```
 
-Updated `pip` and `pipenv` dependencies:
+Updates `pip` and `pipenv` dependencies:
 ```shell
-update
+make update
 ```
 
 💡NOTE 1: maybe you also need to install pipenv-dev packages, then you should manually run the:
