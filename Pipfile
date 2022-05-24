@@ -10,6 +10,7 @@ pandas = "*"
 plotly = "*"
 pexpect = "*"
 pillow = "*"
+kaleido = "*"
 
 [dev-packages]
 pyppeteer = "*"
