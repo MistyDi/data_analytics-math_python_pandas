@@ -25,7 +25,13 @@ See [DEVELOPING.md](DEVELOPING.md): TODOs, recommendations
 
 ## (3) Data Analytics Test - Pandas/Plotly
 
-See task description and task solution at [data_analytics_task.ipynb](data_analytics_task.ipynb)
+See task description and task solution at [nbviewer.org - data_analytics_task.ipynb](https://nbviewer.org/github/MistyDi/data_analytics-math_python_pandas/blob/main/data_analytics_task.ipynb)
+(with support)
+
+Original source (but without plotly-plots visual): [data_analytics_task.ipynb](data_analytics_task.ipynb)
+
+> To save visual plotly-plot and to be able to see them in GitHub - re-run the code with `PLOTLY_PLOT_SHOW_TYPE='svg'`, 
+  defined in the one of the first code-cells. @dmitmatveev
 
 ## (1) Higher Maths Test
 
