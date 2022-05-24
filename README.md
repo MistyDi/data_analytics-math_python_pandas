@@ -1,3 +1,14 @@
+<div>
+   <a href="https://nbviewer.org/github/MistyDi/data_analytics-math_python_pandas/blob/main/data_analytics_task.ipynb">
+   <img src="https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg" alt="data_analytics_task.ipynb at nbviewer"></a>
+   <a href="https://github.com/MistyDi/data_analytics-math_python_pandas/blob/main/LICENSE">
+   <img src="http://img.shields.io/badge/license-MIT-red.svg?style=flat" alt="license"></a>
+   <a href="https://www.python.org/">
+   <img src="https://github.com/MistyDi/badges/blob/main/badges/p3_10.svg" alt="python"></a>
+</div>
+<br>
+
+
 > The test is directed to check knowledge of Higher Maths (1), basic Python definitions (2) and usage of python libs 
   for data analytics. I'm enough-experienced python-developer, so parts (1) and (3) are more interesting to measure the 
   experience.
@@ -26,7 +37,8 @@ See [DEVELOPING.md](DEVELOPING.md): TODOs, recommendations
 ## (3) Data Analytics Test - Pandas/Plotly
 
 See task description and task solution at [nbviewer.org - data_analytics_task.ipynb](https://nbviewer.org/github/MistyDi/data_analytics-math_python_pandas/blob/main/data_analytics_task.ipynb)
-(with support)
+(with support of interactive plotly-plots, this also available by the badge 
+<a href="https://nbviewer.org/github/MistyDi/data_analytics-math_python_pandas/blob/main/data_analytics_task.ipynb"><img src="https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg" alt="data_analytics_task.ipynb at nbviewer"></a> (click on it))
 
 Original source (but without plotly-plots visual): [data_analytics_task.ipynb](data_analytics_task.ipynb)
 
