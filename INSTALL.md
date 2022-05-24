@@ -58,6 +58,28 @@ pipenv install --dev
 ⚠️NOTE 3: all the commands here should be run under the repository dir.
 
 
+## Set git-diff for the jupyter notebook files
+
+```shell
+# installing `nbdime` inside of pipenv is possibly not a good idea: you will be able to run the nbdime only under 
+#  the pipenv activated. In this case you especially don't want to enable in globally, so:
+
+# Installing globally:
+pip install nbdime
+# Setting integration with `git diff` globally:
+nbdime config-git --enable --global
+```
+
+To disable:
+```shell
+nbdime config-git --disable --global
+```
+
+To compare with in WEB-interface:
+```shell
+nbdiff-web
+```
+
 ## How to install new python-packages
 
 > All installations should happen with `pipenv` command.
