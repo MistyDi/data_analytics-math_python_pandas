@@ -9,6 +9,7 @@ numpy = "*"
 pandas = "*"
 plotly = "*"
 pexpect = "*"
+pillow = "*"
 
 [dev-packages]
 pyppeteer = "*"
