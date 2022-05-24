@@ -38,6 +38,11 @@ Installs all you need and starts jupyter-lab with the [data_analytics_task.ipynb
 make run-lab
 ```
 
+Updates `pip` of the **current** user:
+```shell
+make pip-update
+```
+
 Updates `pip` and `pipenv` dependencies:
 ```shell
 make update
