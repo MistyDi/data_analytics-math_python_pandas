@@ -8,6 +8,7 @@ ipykernel = "*"
 numpy = "*"
 pandas = "*"
 plotly = "*"
+pexpect = "*"
 
 [dev-packages]
 pyppeteer = "*"
