@@ -23,7 +23,7 @@ run : build-notebook build_kernel
 	jupyter notebook $(D_NOTEBOOK)
 
 run-lab : build-lab build_kernel
-	echo "Starting of `run-lab`"
+	echo "Starting of 'run-lab'"
 	jupyter lab $(D_NOTEBOOK)
 
 pip-update :
