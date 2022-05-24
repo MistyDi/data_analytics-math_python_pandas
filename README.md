@@ -5,8 +5,15 @@
 > Main python-packages used for (3): [`pandas`](https://pandas.pydata.org/), [`plotly`](https://plotly.com/python/). 
   Additional: `itertools`, `PIL`.
 >
-> Also, I tried: `Makefile` creating, using of [`pipenv`](https://pipenv.pypa.io/en/latest/), 
-  [DataSpell](https://www.jetbrains.com/dataspell/) IDE, and several GitHub pretties.
+> Also, I tried: 
+>  - `Makefile` creating; 
+>  - using of [`pipenv`](https://pipenv.pypa.io/en/latest/) for virtual environment;
+>  - [DataSpell](https://www.jetbrains.com/dataspell/) IDE; 
+>  - several GitHub pretties (tagging by [SemVer](https://github.com/semver/semver/blob/master/semver.md), issues, 
+     issue_templates, Pull Requests, releases); 
+>  - Git-stuff (branching, merging, merge conflicts solving, cherry-picking, rebasing);
+>  - [`nbdime`](https://nbdime.readthedocs.io/en/latest/) for git-diff comparing of the `.ipynb`-files
+>  - KaTeX for writing math-formulas and math-equation inside of the Notion (see Test (1) below).
 
 ## Installing
 
@@ -16,6 +23,16 @@ See [INSTALL.md](INSTALL.md) for the info: installing is pretty-simple ;)
 
 See [DEVELOPING.md](DEVELOPING.md): TODOs, recommendations
 
+## (3) Data Analytics Test - Pandas/Plotly
+
+See task description and task solution at [nbviewer.org - data_analytics_task.ipynb](https://nbviewer.org/github/MistyDi/data_analytics-math_python_pandas/blob/main/data_analytics_task.ipynb)
+(with support)
+
+Original source (but without plotly-plots visual): [data_analytics_task.ipynb](data_analytics_task.ipynb)
+
+> To save visual plotly-plot and to be able to see them in GitHub - re-run the code with `PLOTLY_PLOT_SHOW_TYPE='svg'`, 
+  defined in the one of the first code-cells. @dmitmatveev
+
 ## (1) Higher Maths Test
 
 [Notion - Test 1 - Higher Math](https://www.notion.so/dmitmatveev/Dmitriy-Matveev-Test-1-Higher-Math-107a04e281704f678bd8d449caff7f97)
@@ -23,10 +40,6 @@ See [DEVELOPING.md](DEVELOPING.md): TODOs, recommendations
 ## (2) Basic Python Definitions Test
 
 [Notion - Test 2 - Python Basic Definitions](https://dmitmatveev.notion.site/Dmitriy-Matveev-Test-2-Python-Basic-Definitions-634d136aeb1f49b5bc758469e84c42d2)
-
-## (3) Data Analytics - Test 3 - Pandas/Plotly
-
-See task description and task solution at [data_analytics_task.ipynb](data_analytics_task.ipynb)
 
 ### Get Started
 

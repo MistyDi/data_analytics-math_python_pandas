@@ -1,3 +1,10 @@
+# Recommendations
+
+## Versions and git tags
+
+Название версии должно придерживаться логики [**Semantic Versioning**](https://semver.org/) или то же 
+самое [SemVer](https://github.com/semver/semver/blob/master/semver.md)
+
 # Further TODO
 
 
